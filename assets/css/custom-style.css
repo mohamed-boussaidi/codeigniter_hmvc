@@ -1,0 +1,60 @@
+tbody .active td {
+    outline: none !important;
+}
+tbody .active td:active {
+    outline: none !important;
+}
+tbody .active td:focus {
+    outline: none !important;
+}
+tbody .active td:visited {
+    outline: none !important;
+}
+tbody .active td:hover {
+    outline: none !important;
+}
+.clockdiv {
+    width: 100%;
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 20px;
+    position: absolute;
+    height: 100px;
+    top: 65px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.clockdiv > div > div {
+    opacity: 1;
+    display: inline-block;
+}
+
+#clockdiv-container {
+    color: #fefffc;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.64);
+    display: block;
+}
+
+.clockdiv div > span {
+
+    display: inline-block;
+}
+
+.smalltext {
+
+}
+
+#thumb-box {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-clip: border-box;
+    background-size: auto auto !important;
+}

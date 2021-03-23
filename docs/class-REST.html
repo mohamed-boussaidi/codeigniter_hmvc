@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class REST | Mind Kernel</title>
+
+	<script type="text/javascript" src="resources/combined.js?3415740931"></script>
+	<script type="text/javascript" src="elementlist.js?3779689320"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li class="active"><a href="class-REST.html">REST</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Libraries.html" title="Summary of CodeIgniter\Libraries"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="mind-kernel-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+			</li>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class REST</h1>
+
+
+	<div class="description">
+	
+<p>CodeIgniter REST Class</p>
+
+<p>Make REST requests to RESTful services with simple syntax.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Libraries.html">Libraries</a><br />
+
+				<b>Category:</b>
+				Libraries<br />
+				<b>License:</b>
+				<a href="http://philsturgeon.co.uk/code/dbad-license">http://philsturgeon.co.uk/code/dbad-license</a><br />
+				<b>Author:</b>
+				Philip Sturgeon<br />
+				<b>Author:</b>
+				Chris Kacerguis<br />
+				<b>Created:</b>
+				04/06/2009<br />
+		<b>Located at</b> libraries/Rest.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( <span>mixed <var>$config</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__destruct" id="___destruct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___destruct">#</a>
+		<code>__destruct( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="initialize" id="_initialize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_initialize">#</a>
+		<code>initialize( <span>mixed <var>$config</var></span> )</code>
+
+		<div class="description short">
+			
+<p>initialize</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>initialize</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+						Chris Kacerguis<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code>get( <span>mixed <var>$uri</var></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$format</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>get</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>get</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="post" id="_post">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_post">#</a>
+		<code>post( <span>mixed <var>$uri</var></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$format</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>post</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>post</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="put" id="_put">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_put">#</a>
+		<code>put( <span>mixed <var>$uri</var></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$format</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>put</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>put</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="patch" id="_patch">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_patch">#</a>
+		<code>patch( <span>mixed <var>$uri</var></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$format</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>patch</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>patch</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Dmitry Serzhenko<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code>delete( <span>mixed <var>$uri</var></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$format</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>delete</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>delete</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="api_key" id="_api_key">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_api_key">#</a>
+		<code>api_key( <span>mixed <var>$key</var></span>, <span>mixed <var>$name</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>api_key</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>api_key</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="language" id="_language">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_language">#</a>
+		<code>language( <span>mixed <var>$lang</var></span> )</code>
+
+		<div class="description short">
+			
+<p>language</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>language</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="header" id="_header">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_header">#</a>
+		<code>header( <span>mixed <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+<p>header</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>header</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						David Genelid<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_call" id="__call">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__call">#</a>
+		<code>_call( <span>mixed <var>$method</var></span>, <span>mixed <var>$uri</var></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$format</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>_call</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>_call</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="format" id="_format">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_format">#</a>
+		<code>format( <span>mixed <var>$format</var></span> )</code>
+
+		<div class="description short">
+			
+<p>initialize</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>initialize</p>
+
+<p>If a type is passed in that is not supported, use it as a mime type</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="debug" id="_debug">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_debug">#</a>
+		<code>debug( )</code>
+
+		<div class="description short">
+			
+<p>debug</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>debug</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="status" id="_status">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_status">#</a>
+		<code>status( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="info" id="_info">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_info">#</a>
+		<code>info( <span>mixed <var>$key</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>info</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>info</p>
+
+<p>Return curl info by specified key, or whole array</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="option" id="_option">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_option">#</a>
+		<code>option( <span>mixed <var>$code</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="http_header" id="_http_header">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_http_header">#</a>
+		<code>http_header( <span>mixed <var>$header</var></span>, <span>mixed <var>$content</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>http_header</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>http_header</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_format_response" id="__format_response">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__format_response">#</a>
+		<code>_format_response( <span>mixed <var>$response</var></span> )</code>
+
+		<div class="description short">
+			
+<p>_format_response</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>_format_response</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_xml" id="__xml">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__xml">#</a>
+		<code>_xml( <span>mixed <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>_xml</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>_xml</p>
+
+<p>Format XML for output</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_csv" id="__csv">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__csv">#</a>
+		<code>_csv( <span>mixed <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>_csv</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>_csv</p>
+
+<p>Format HTML for output. This function is DODGY! Not perfect CSV support but
+works with my REST_Controller (<a
+href="https://github.com/philsturgeon/codeigniter-restserver">https://github.com/philsturgeon/codeigniter-restserver</a>)</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_json" id="__json">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__json">#</a>
+		<code>_json( <span>mixed <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>_json</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>_json</p>
+
+<p>Encode as JSON</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_serialize" id="__serialize">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__serialize">#</a>
+		<code>_serialize( <span>mixed <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>_serialize</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>_serialize</p>
+
+<p>Encode as Serialized array</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_php" id="__php">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__php">#</a>
+		<code>_php( <span>mixed <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>_php</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>_php</p>
+
+<p>Encode raw PHP</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Phil Sturgeon<br />
+				</div>
+				<h4>Version</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_ci" id="$_ci">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$_ci</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_ci" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="supported_formats" id="$supported_formats">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$supported_formats</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'xml'</span>               =&gt; <span class="php-quote">'application/xml'</span>,
+    <span class="php-quote">'json'</span>              =&gt; <span class="php-quote">'application/json'</span>,
+    <span class="php-quote">'serialize'</span>         =&gt; <span class="php-quote">'application/vnd.php.serialized'</span>,
+    <span class="php-quote">'php'</span>               =&gt; <span class="php-quote">'text/plain'</span>,
+    <span class="php-quote">'csv'</span>               =&gt; <span class="php-quote">'text/csv'</span>
+)</code></td>
+		<td class="description"><div>
+			<a href="#$supported_formats" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="auto_detect_formats" id="$auto_detect_formats">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$auto_detect_formats</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'application/xml'</span>   =&gt; <span class="php-quote">'xml'</span>,
+    <span class="php-quote">'text/xml'</span>          =&gt; <span class="php-quote">'xml'</span>,
+    <span class="php-quote">'application/json'</span>  =&gt; <span class="php-quote">'json'</span>,
+    <span class="php-quote">'text/json'</span>         =&gt; <span class="php-quote">'json'</span>,
+    <span class="php-quote">'text/csv'</span>          =&gt; <span class="php-quote">'csv'</span>,
+    <span class="php-quote">'application/csv'</span>   =&gt; <span class="php-quote">'csv'</span>,
+    <span class="php-quote">'application/vnd.php.serialized'</span> =&gt; <span class="php-quote">'serialize'</span>
+)</code></td>
+		<td class="description"><div>
+			<a href="#$auto_detect_formats" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="rest_server" id="$rest_server">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$rest_server</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$rest_server" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="format" id="$format">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$format</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$format" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="mime_type" id="$mime_type">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$mime_type</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$mime_type" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="http_auth" id="$http_auth">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$http_auth</var>		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$http_auth" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="http_user" id="$http_user">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$http_user</var>		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$http_user" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="http_pass" id="$http_pass">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$http_pass</var>		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$http_pass" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="api_name" id="$api_name">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$api_name</var>		</td>
+		<td class="value"><code><span class="php-quote">'X-API-KEY'</span></code></td>
+		<td class="description"><div>
+			<a href="#$api_name" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="api_key" id="$api_key">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$api_key</var>		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$api_key" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ssl_verify_peer" id="$ssl_verify_peer">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$ssl_verify_peer</var>		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$ssl_verify_peer" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ssl_cainfo" id="$ssl_cainfo">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$ssl_cainfo</var>		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$ssl_cainfo" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="send_cookies" id="$send_cookies">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$send_cookies</var>		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$send_cookies" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="response_string" id="$response_string">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$response_string</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$response_string" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Mind Kernel API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
